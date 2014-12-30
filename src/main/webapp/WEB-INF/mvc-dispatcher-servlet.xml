@@ -9,6 +9,7 @@
 
     <context:load-time-weaver />
 
+    <context:spring-configured />
 
     <bean id="member" class="com.softline.domain.Member" abstract="true">
         <property name="blockRepository" ref="blockRepository" />
